@@ -1,14 +1,14 @@
 import "./App.css";
 import Form from "./components/Form";
-import Title from "./components/Title/Index";
+import Values from "./components/Values";
 
 function App() {
-  return (
-    <div className="App">
-      <Title />
-      <Form/>
-    </div>
-  );
+    return (
+        <main className="mainApp">
+            <Form />
+            <Values />
+        </main>
+    );
 }
 
 export default App;
